@@ -7,14 +7,15 @@ An attempt to use SnarkJS within Flutter WebView.
 
 The example circuit used within `multiplier_3` is simply a circuit to compute the multiplication of 3 numbers.
 
-```json
+```js
+// input signals
 {
-  "inputSignals": {
-    "in": [3n, 7n, 11n]
-  },
-  "outputSignals" {
-    "out": 231
-  }
+  "in": [3, 7, 11]
+}
+
+// output signals
+{
+  "out": 231
 }
 ```
 
