@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "copy": "cp node_modules/snarkjs/build/snarkjs.min.js ./src",
+    "serve": "npx http-server ./src/"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "snarkjs": "0.5.x"
+  }
+}

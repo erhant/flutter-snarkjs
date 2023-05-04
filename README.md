@@ -21,6 +21,8 @@ The example circuit used within `multiplier_3` is simply a circuit to compute th
 
 The provided prover key & verification key is of a PLONK proof system. PTAU used is for BN128 by [Polygon Hermez](powersOfTau28_hez_final_08.ptau) (less than $2^8$ constraints in this one).
 
+Note that there is an [issue](https://github.com/iden3/snarkjs/issues/317) with browser code of Snarkjs right now, until that is fixed we are using version `0.5.x`.
+
 ## Disclaimer
 
 I have no idea of mobile development, this is practically my hello-world in the mobile space.
